@@ -1,5 +1,57 @@
 # MegaNZ-Checker
 >>> PASSWORD: 2026
+================================================================================================
+# 🛡️ MegaNZ Security Auditor
+
+A security auditing tool for checking the safety of **your own** Mega.nz accounts.
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+---
+
+## ⚠️ LEGAL DISCLAIMER
+
+**READ CAREFULLY BEFORE USE**
+
+This tool is designed **ONLY** for legitimate security purposes:
+- ✅ Auditing **YOUR OWN** Mega.nz accounts
+- ✅ Testing accounts you legally own or control
+- ✅ Authorized security testing with explicit written permission
+- ✅ Educational purposes in a controlled environment
+
+**STRICTLY PROHIBITED:**
+- Unauthorized access to third-party accounts
+- "Credential checking" of leaked/stolen databases
+- Searching for mnemonic phrases or secrets in accounts you do not own
+- Any activity violating Mega.nz ToS, GDPR, CFAA, or local computer crime laws
+
+The developer is **not liable** for misuse, legal consequences, account bans, or any damages resulting from improper use. By using this tool, you accept full legal responsibility for your actions.
+
+---
+
+## 🌟 Features
+
+| Feature | Description |
+|---------|-------------|
+| **Account Validation** | Verify login credentials or API keys for your account |
+| **Storage Analysis** | Check used/free space on your cloud storage |
+| **Text File Search** | Find .txt files that may contain sensitive data |
+| **Mnemonic Detection** | Scan for cryptocurrency mnemonic phrases and private keys |
+| **Safe Download** | Download found files for local security analysis |
+
+---
+⚙️ Configuration
+Create a config.json file:
+json
+12345678910
+{  "search_patterns": [    "mnemonic",    "private key",    "seed phrase",    "wallet",    "backup"  ],  "file_extensions": [".txt", ".log", ".dat", ".json"]}
+
+⚠️ Important Notice
+Mega, Mega.nz, and related logos are registered trademarks of Mega Limited. This tool is not affiliated with, endorsed by, or supported by Mega Limited.
+
+mega nz checker, mega.nz security audit, account validator, mnemonic phrase finder, cloud storage scanner, credential security, ethical hacking tool, data leak detection
+
+RU
 
 MegaNZ Security Auditor — Проверка безопасности ВАШИХ аккаунтов Mega.nz
 
