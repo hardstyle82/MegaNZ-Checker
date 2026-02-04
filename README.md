@@ -1,0 +1,2 @@
+# MegaNZ-Checker
+MegaNZ Checker
